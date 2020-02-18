@@ -153,6 +153,7 @@ and parallel combinations if possible.
 
 
 **`2-Input NOR`**
+
 <img width="407" alt="NOR" src="https://user-images.githubusercontent.com/16707828/74694106-c04a0780-51bc-11ea-87ae-a11a861980c5.png">
 
 
