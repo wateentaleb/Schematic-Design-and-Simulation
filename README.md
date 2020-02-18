@@ -106,6 +106,10 @@ A Nor gate which is also known as an inverted OR gate only outputs true when bot
 
 ![wpfetsweep](https://user-images.githubusercontent.com/16707828/74693717-fdad9580-51ba-11ea-8313-36163a798710.png)
 
+## Schematic Designs to Layouts
+
+
+
 
 
 
