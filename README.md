@@ -71,3 +71,13 @@ A NAND is one of the most fundamental logic gates in the computer industry, with
 **`NAND Schematic`**
 
 <img width="517" alt="schematic" src="https://user-images.githubusercontent.com/16707828/74693288-26349000-51b9-11ea-9251-6fdd0739357d.png">
+
+**`NAND Symbol`**
+
+![symbol](https://user-images.githubusercontent.com/16707828/74693562-49137400-51ba-11ea-8ad5-6e398f1cd747.png)
+
+**`NAND TestBench`**
+![nandtestbench](https://user-images.githubusercontent.com/16707828/74693563-4a44a100-51ba-11ea-9b4f-cc8861613100.png)
+
+**`wpfet Sweep`**
+<img width="505" alt="wpfetsweep" src="https://user-images.githubusercontent.com/16707828/74693566-4c0e6480-51ba-11ea-91b3-39060a43c101.png">
