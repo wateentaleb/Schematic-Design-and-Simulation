@@ -89,17 +89,21 @@ A Nor gate which is also known as an inverted OR gate only outputs true when bot
 
 
 **`NOR Schematic`**
+
 ![Picture2](https://user-images.githubusercontent.com/16707828/74693694-e8d10200-51ba-11ea-8e2e-572572d0333f.png)
 
 
 **`NOR Symbol`**
+
 ![schematic](https://user-images.githubusercontent.com/16707828/74693699-ef5f7980-51ba-11ea-95d0-368c5ef9a4ea.png)
 
 
 **`NOR TestBench`**
+
 ![test](https://user-images.githubusercontent.com/16707828/74693709-f8504b00-51ba-11ea-91fa-c10509e7cea4.png)
 
 **`wpfet Sweep`**
+
 ![wpfetsweep](https://user-images.githubusercontent.com/16707828/74693717-fdad9580-51ba-11ea-8313-36163a798710.png)
 
 
