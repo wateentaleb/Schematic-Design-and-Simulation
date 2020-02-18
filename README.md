@@ -52,6 +52,16 @@ We must add pins to the design to allow signals to enter into the cell view from
 
 ![sweep](https://user-images.githubusercontent.com/16707828/74693034-005abb80-51b8-11ea-8756-d85e28ec282e.png)
 
+**`Propogation Delay Time`**
+In ideal case, if there was no propagation delay, effect of the input signal would have been instantaneously seen at the output of an inverter. In other words, a rising edge at the input of an inverter would cause falling edge at the output without any delay. In reality, there is a finite time needed to charge up all capacitances inside the inverter, and to change all electromagnetic fields of all conductors carrying fast switching current. Therefore, the propagation delay time of an inverter is the time difference between the moment when the input edge shows up, and the time when the corresponding output edge shows up as shown in the figure below. 
+
+<img width="522" alt="graph" src="https://user-images.githubusercontent.com/16707828/74693410-c4c0f100-51b9-11ea-865d-c61aac20c0b4.png">
+
+This delay usually vary depending on whether the output is changing high-to-low or vice versa. The propagation delay should be measured at the cross-over point, i.e. at half of the supply voltage (in this case at 0.6V). The propagation delay is then calculated as average value of these two cases: tpd=(tpdr+tpdf)/2. Where tpdr is propagation delay of low-to-high transition, and tpdf is propagation delay of high-to-low transition.
+
+<img width="259" alt="tpd" src="https://user-images.githubusercontent.com/16707828/74693429-dc987500-51b9-11ea-9afc-c4b22e27a3b1.png">
+
+
 ### `NAND Design`
 
 A NAND is one of the most fundamental logic gates in the computer industry, with the ability to perform complex logical expression while minimizing the cost of production for that piece. It is often use as a universal logical gate to build complex and simple circuits.
