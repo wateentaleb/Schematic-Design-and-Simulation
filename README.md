@@ -108,8 +108,21 @@ A Nor gate which is also known as an inverted OR gate only outputs true when bot
 
 ## Schematic Designs to Layouts
 
+Analog and custom IC design is completed in Virtuoso Layout XL Layout tool. During this stage, schematic designs will be transferred into layouts using specific design rules and layers. The layout design stage is extremely important as it reflects what will be manufactured by the fab. 
 
+To check the layout for manufacturability, the DRC tool is used. DRC stands for Design Rule Check. The rules that the DRC tool uses are specific to a particular technology process, in our case we are using a 90nm process, therefore the DRC rules are specific to that process. The setup required for the particular technology is chosen at the moment when Cadence is started with the source ”Start Cadence AMS.csh” switch specified.
 
+To ensure your layout is electrically correct LVS (Layout vs Schematic) tools are used. More info on these tools later in this document.
 
+The steps required to complete a effective layout of the schematic design are listed below: 
+An outline of this document is provided below:
+
++ Creation of the gate layout.
++ Verification of the gate layout with Design Rule Checker (DRC) for manufac-
+turability.
++  Verification of electrical equivalence between the layout and schematic views of the gate.
++ Creation of extracted view of the gate layout using layout extractor tool to include all parasitic capacitances.
++ Creation of Configuration View (analog extracted)needed for the layout simu- lation
++ Simulation of the extracted layout view.
 
 
