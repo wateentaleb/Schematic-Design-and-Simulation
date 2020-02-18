@@ -125,4 +125,34 @@ turability.
 + Creation of Configuration View (analog extracted)needed for the layout simu- lation
 + Simulation of the extracted layout view.
 
+## Design Rules
+This laboratory had to meet various industry standards; moreover, it taught many pertinent skills that are beneficial for computer hardware engineers, such as minimizing the amount of materials used and matching the schematic design. The tools used to ensure that the designs follow industry standards are explained below.
+
+**`Design Rule Check`**
+The next step after designing the layout is to perform the Design Rule Check (DRC). Although it is expected that the students are designing the gates while keeping in mind the design rules, the DRC is the last step in order to verify that the layout does in fact follow design rules. It is important to note that without this tool, any violation of these design rules would certainly resulted into a fabricated chip that does not work as desired. However, this test does not check if the layout represents accurately the schematic, this is where the Layout Versus Schematic Check (LVS) comes in.
+
+**`Design Rule Check`**
+The Layout Versus Schematic software recognizes the layout of the components of the circuit as well as the connections between them. The LVS software uses three steps:
+
+1. Extraction: It extracts all the layers drawn, checks the wiring between locations of pins.
+2. Reduction: In this part of the software, LVS combines the extracted components into series
+and parallel combinations if possible.
+3. Comparison: The extracted layout compares the netlist taken from the schematic and the netlist taken from the layout, if the netlists match, then the circuits passes the LVS check.
+
+
+## Screenshots
+
+**`Inverter`**
+
+<img width="475" alt="inveter" src="https://user-images.githubusercontent.com/16707828/74694103-bf18da80-51bc-11ea-8bd2-c58b7293d7c0.png">
+
+
+**`2-Input NAND`**
+
+<img width="465" alt="NAND" src="https://user-images.githubusercontent.com/16707828/74694104-bfb17100-51bc-11ea-9cc0-29a976f3848d.png">
+
+
+**`2-Input NOR`**
+<img width="407" alt="NOR" src="https://user-images.githubusercontent.com/16707828/74694106-c04a0780-51bc-11ea-87ae-a11a861980c5.png">
+
 
