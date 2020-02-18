@@ -45,4 +45,19 @@ We must add pins to the design to allow signals to enter into the cell view from
 ![symbol-inverter](https://user-images.githubusercontent.com/16707828/74692892-511de480-51b7-11ea-9b07-bd93336da010.png)
 
 **`Test Bench for the Inverter`**
+
 ![Testbench-inverter](https://user-images.githubusercontent.com/16707828/74692986-b671d580-51b7-11ea-9bab-787fbd3809fc.png)
+
+**`wpfet Sweep`**
+
+![sweep](https://user-images.githubusercontent.com/16707828/74693034-005abb80-51b8-11ea-8756-d85e28ec282e.png)
+
+### `NAND Design`
+
+A NAND is one of the most fundamental logic gates in the computer industry, with the ability to perform complex logical expression while minimizing the cost of production for that piece. It is often use as a universal logical gate to build complex and simple circuits.
+
+![Picture1](https://user-images.githubusercontent.com/16707828/74693258-ff765980-51b8-11ea-9281-6db94cd0ef73.png)
+
+**`NAND Schematic`**
+
+<img width="517" alt="schematic" src="https://user-images.githubusercontent.com/16707828/74693288-26349000-51b9-11ea-9251-6fdd0739357d.png">
