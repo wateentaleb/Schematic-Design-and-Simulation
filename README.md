@@ -156,4 +156,7 @@ and parallel combinations if possible.
 
 <img width="407" alt="NOR" src="https://user-images.githubusercontent.com/16707828/74694106-c04a0780-51bc-11ea-87ae-a11a861980c5.png">
 
+## Conclusion
+
+The knowledge acquired from this project was beneficial to say the least, it is refreshing and very useful to learn and have experience using industry leading software’s to design digital circuits from their very elements. In this project, the schematics and MOSFETS widths found previously are used as a basis to build the layout. These layouts had to meet industry standards by both passing the DRC and LVS tests. Furthermore, the amount of materials was minimized in order to save as much cost as possible.
 
